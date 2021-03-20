@@ -125,7 +125,7 @@ print('''
 [ 2 ] - personalizar
 ''')
 
-op = int(input('Qual sua opção: '))
+op = 1
 
 if op == 1:
     username = lista_de_contas[0][0]
