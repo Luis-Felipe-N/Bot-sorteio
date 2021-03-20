@@ -95,6 +95,7 @@ def comentarFoto(driver, foto):
                 # publicar
 
                 i += 1
+                print(i)
         except:
             print(f'{i} comentarios')
             print('\033[31mSua conta foi bloqueada\033[m \033[34m Trocando de conta\033[m')
