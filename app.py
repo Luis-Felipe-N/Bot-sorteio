@@ -38,7 +38,7 @@ def login(email, senha):
     # Entrando no Instagram
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get('https://www.instagram.com/')
-    sleep(5)
+    sleep(19)
 
     ## username
     campo_username = driver.find_element_by_xpath("//input[@name='username']")
@@ -53,7 +53,7 @@ def login(email, senha):
     campo_password.send_keys(senha)
     campo_password.send_keys(Keys.RETURN)
     print(f'\033[32mUsando a conta {lista_de_contas[index_conta][0]}, com comentarios na intervalo de {tempo[0]} a {tempo[1]} segundos\033[m')
-    sleep(5)
+    sleep(10)
     comentarFoto(driver, foto)
     return driver
 
@@ -71,7 +71,7 @@ def comentarFoto(driver, foto):
 
     # Entarando na foto
     driver.get(f'https://www.instagram.com/p/{foto}/')
-    sleep(2)
+    sleep(5)
     print('\033[32mEntrou na foto com sucesso\033[m')
 
     # Comentar
@@ -88,6 +88,7 @@ def comentarFoto(driver, foto):
 
                 # digitando um comentário aleatorio
                 digitar_como_uma_pessoa(comentarios, campo_comentar)
+                sleep(5)
                 campo_comentar.send_keys(Keys.RETURN)
                 sleep(random.randint(tempo[0],tempo[1]))
                 print('\033[32mComentando...\033[m')
@@ -134,15 +135,5 @@ if op == 1:
     tempo = [60, 70]
     foto = 'CMkHfHGFcZR'
     quant_amigos_marca = 2
-else:
-    tempo = list()
-    username = input('Email: ')
-    password = input('Senha: ')
-    foto = input('Foto: ')
-    tempo.append(int(input('De: ')))
-    tempo.clear()
-    tempo.append(int(input('A: ')))
-    quant_amigos_marca = input('Quantos amigos marca: ')
-
 
 driver = login(username, password)
