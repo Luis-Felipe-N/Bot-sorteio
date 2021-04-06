@@ -1,19 +1,30 @@
-# BOT-2.0
+## Bot-sorteio
 
-## Refazer o bot de comentar
+<h1 align="center">
+    <a href="https://www.python.org/🔗 Python</a>
+</h1>
+<p align="center">:rocket: Bot-sorteio é um projeto para quem quer ganhar uma sorteio, mas não quer ficar comentando toda hora.:grinning:</p>
 
-1 - pegar a ideia do bot original
+### Features
 
-2 - adicionar novas funçãos como:
+- [x] Comenta em qualquer sorteio podendo alterar, intervalos entre cada comentário, quantos comentarios em cada foto 
 
-2.1 - escolher qual conta vai comentar
+### :tools: Technology
 
-2.2 - quantos comentarios 
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
-2.3 - Intervalo de tempo
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://www.javascript.com/)
 
-2.4 - Foto que será comentada
+### Autor
+---
+<a href="">
+ <img style="border-radius: 50px;" src="/photo.jpg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Luis Felipe</b></sub></a>  <br>
 
-## Estudar vps 
 
-## Colocar o bot numa vps
+Feito por Luis Felipe :wave_tone3: Entre em contato!
+
+[!Instagram Badge](https://instagram.fpmw3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/162947345_362655328350139_8906382656917021772_n.jpg?tp=1&_nc_ht=instagram.fpmw3-1.fna.fbcdn.net&_nc_ohc=ot87xDWf_oMAX-Do7ge&edm=ABfd0MgAAAAA&ccb=7-4&oh=5f1717d95ec2854f28ee4c7e6a506342&oe=609152B4&_nc_sid=7bff83)](https://www.instagram.com/luis_felipenc17/) 
