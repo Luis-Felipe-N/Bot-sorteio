@@ -13,9 +13,7 @@
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://www.javascript.com/)
+- [PYTHON](https://www.python.org/)
 
 ### Autor
 ---
