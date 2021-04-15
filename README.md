@@ -4,14 +4,7 @@
     <a href="https://www.python.org/"> 🔗 Python </a>
 </h1>
              
-#### :rocket: Bot-sorteio é um projeto para quem quer ganhar sorteios no instagram, mas não quer ficar comentando toda hora.:grinning:
-
-### Features
-
-- [x]Comenta em qualquer sorteio.
-- [x]Escolher quantas pessoas marca.
-- [x]Comentar com várias conta.
-
+#### :rocket: Bot-sorteio is a project for you that want win sweepstakes in Instagram, and want made it .:grinning:
 
 ### Installation
 
@@ -27,30 +20,30 @@ git clone https://github.com/Luis-Felipe-N/Bot-sorteio.git
 pip install selenium
 ```
 
-### Technology
 
-As seguintes ferramentas foram utilizadas na construção do projeto:
-
-- [PYTHON](https://www.python.org/)
-- [SELENIUM](https://www.selenium.dev/)
-
-### Como usar
+### How to use
 
 
-- No arquivo amigos.txt, insira os @amigo que será marcado, e um enter para cada amigo como no exemplo.
+- In file amigos.txt, insert the @friends.
 
 <img src="/assets/exemplo1.png">
 
-- No arquivo lista_de_contas.txt, insira as contas que será ultilizada, e um enter caso seja mais que uma.
+- In file lista_de_contas.txt, insert the accounts that will be use.
 
 <img src="/assets/exemplo2.png">
+
+### Technology
+
+- [PYTHON](https://www.python.org/)
+- [SELENIUM](https://www.selenium.dev/)
 
 ### Autor
 ---
 <a href="">
  <img style="border-radius: 50px;" src="/photo.jpg" width="100px;" alt=""/>
  <br />
- <sub><b>Luis Felipe</b></sub></a>  <br>
+ <sub><b>Luis Felipe</b></sub>
+ </a>  <br>
 
 
-Feito por Luis Felipe 🤙🏾 Entre em contato!
+By Luis Felipe 🤙🏾.
