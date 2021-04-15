@@ -8,8 +8,7 @@
 ### Features
 
 - [x] Comenta em qualquer sorteio.
-- [x] Quantos amigos marca em cada foto
-- [x] Intervalos entre cada comentários.
+
 
 ### Technology
 
@@ -17,9 +16,12 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [PYTHON](https://www.python.org/)
 
-### :Como usar
+### Como usar
 
--No arquivo 
+
+- No arquivo amigos.txt, insira os @amigo que será marcado, como no exemplo.
+
+<img src="/assets/exemplo1.png">
 
 ### Autor
 ---
