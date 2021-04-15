@@ -3,17 +3,23 @@
 <h1 align="center">
     <a href="https://www.python.org/🔗 Python</a>
 </h1>
-<p align="center">:rocket: Bot-sorteio é um projeto para quem quer ganhar uma sorteio, mas não quer ficar comentando toda hora.:grinning:</p>
+:rocket: Bot-sorteio é um projeto para quem quer ganhar sorteios no instagram, mas não quer ficar comentando toda hora.:grinning:
 
 ### Features
 
-- [x] Comenta em qualquer sorteio podendo alterar, intervalos entre cada comentário, quantos comentarios em cada foto 
+- [x] Comenta em qualquer sorteio.
+- [x] Quantos amigos marca em cada foto
+- [x] Intervalos entre cada comentários.
 
-### :tools: Technology
+### Technology
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [PYTHON](https://www.python.org/)
+
+### :Como usar
+
+-No arquivo 
 
 ### Autor
 ---
