@@ -8,7 +8,7 @@
 
 ### Features
 
-- [x] Comenta em qualquer sorteio.
+- [x]Comenta em qualquer sorteio.
 
 
 ### Technology
