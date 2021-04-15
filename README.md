@@ -1,6 +1,8 @@
 ## Bot-sorteio
 
-
+<h1 align="center">
+    <a href="https://www.python.org/🔗 Python </a>
+</h1>
              
 - :rocket: Bot-sorteio é um projeto para quem quer ganhar sorteios no instagram, mas não quer ficar comentando toda hora.:grinning:
 
