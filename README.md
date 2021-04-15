@@ -9,7 +9,23 @@
 ### Features
 
 - [x]Comenta em qualquer sorteio.
+- [x]Escolher quantas pessoas marca.
+- [x]Comentar com várias conta.
 
+
+### Installation
+
+- clone the repository:
+
+```sh
+git clone https://github.com/Luis-Felipe-N/Bot-sorteio.git
+```
+
+- install the dependencies:
+
+```sh
+pip install selenium
+```
 
 ### Technology
 
