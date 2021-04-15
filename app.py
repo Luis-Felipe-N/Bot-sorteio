@@ -78,7 +78,7 @@ def comentarFoto(driver, foto):
     quant_comentarios = 0
 
     # Entarando na foto
-    driver.get(f'https://www.instagram.com/p/{foto}/')
+    driver.get(foto)
     sleep(5)
     print('\033[32mEntrou na foto com sucesso\033[m')
 
@@ -121,19 +121,18 @@ with open("lista_contas.txt", "r+") as contas:
             conta = conta.split(':')
             lista_de_contas.append(conta.copy())
 
+# Parte que pode mexer
 
-print('''
-[ 1 ] - configuração padrão
-[ 2 ] - personalizar
-''')
-
-op = 1
+# =================================================
 
 if op == 1:
     username = lista_de_contas[0][0]
     password = lista_de_contas[0][1]
     tempo = [5 , 2]
-    foto = 'CMkHfHGFcZR'
+    foto = 'https://www.instagram.com/p/CNqqKnpAIsh/'
     quant_amigos_marca = 2
+
+
+# =================================================
 
 driver = login(username, password)

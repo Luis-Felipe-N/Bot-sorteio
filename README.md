@@ -8,6 +8,12 @@
 
 ### Installation
 
+- install Python:
+
+```sh
+https://www.python.org/downloads/release/python-394/
+```
+
 - clone the repository:
 
 ```sh
