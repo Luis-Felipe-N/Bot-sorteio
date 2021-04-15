@@ -4,7 +4,7 @@
     <a href="https://www.python.org/"> 🔗 Python </a>
 </h1>
              
-#### :rocket: Bot-sorteio is a project for you that want win sweepstakes in Instagram, and want made it .:grinning:
+#### :rocket: Bot-sorteio is a project for you that want win sweepstakes in Instagram, and want made it automated manner.:grinning:
 
 ### Installation
 
