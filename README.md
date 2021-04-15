@@ -20,9 +20,13 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 ### Como usar
 
 
-- No arquivo amigos.txt, insira os @amigo que será marcado, como no exemplo.
+- No arquivo amigos.txt, insira os @amigo que será marcado, e um enter para cada amigo como no exemplo.
 
 <img src="/assets/exemplo1.png">
+
+- No arquivo lista_de_contas.txt, insira as contas que será ultilizada, e um enter caso seja mais que uma.
+
+<img src="/assets/exemplo2.png">
 
 ### Autor
 ---
