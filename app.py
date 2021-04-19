@@ -45,7 +45,7 @@ def marcaAmigos(quant):
 
 def login(email, senha):
     # Entrando no Instagram
-    driver = webdriver.Chrome(executable_path=r'C:chromedriver.exe')
+    driver = webdriver.Chrome(executable_path=r'chromedriver.exe')
     driver.get('https://www.instagram.com/')
     sleep(10)
 
@@ -106,7 +106,7 @@ def comentarFoto(driver, foto):
             print(quant_comentarios)
     except:
         print(f'{quant_comentarios} comentarios')
-        print('\033[31mSua conta foi bloqueada\033[m \033[34m Trocando de conta\033[m')
+        print('[31mSua conta foi bloqueada\033[m \033[34m Trocando de conta')
 
         driver.quit()
         sleep(5)
@@ -124,6 +124,8 @@ with open("lista_contas.txt", "r+") as contas:
 # Parte que pode mexer
 
 # =================================================
+
+op = 1
 
 if op == 1:
     username = lista_de_contas[0][0]
