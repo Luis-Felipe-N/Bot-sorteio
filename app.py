@@ -3,14 +3,13 @@ import random
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 index_conta = 0
 
 def trocarConta():
     global index_conta
-
     index_conta += 1
 
     if index_conta == len(lista_de_contas):
@@ -45,7 +44,7 @@ def marcaAmigos(quant):
 
 def login(email, senha):
     # Entrando no Instagram
-    driver = webdriver.Chrome(executable_path=r'chromedriver.exe')
+    driver = webdriver.Chrome('/to/path/chromedriver')
     driver.get('https://www.instagram.com/')
     sleep(10)
 
@@ -96,15 +95,16 @@ def comentarFoto(driver, foto):
             # digitando um comentário aleatorio
             digitar_como_uma_pessoa(comentarios, campo_comentar)
             sleep(5)
+            # publicar
+
             campo_comentar.send_keys(Keys.RETURN)
             sleep(random.randint(tempo[0],tempo[1]))
             print('\033[32mComentando...\033[m')
 
-            # publicar
-
             quant_comentarios += 1
             print(quant_comentarios)
-    except:
+    except Exception as erro:
+        print(erro)
         print(f'{quant_comentarios} comentarios')
         print('[31mSua conta foi bloqueada\033[m \033[34m Trocando de conta')
 
@@ -131,7 +131,7 @@ if op == 1:
     username = lista_de_contas[0][0]
     password = lista_de_contas[0][1]
     tempo = [5 , 2]
-    foto = 'https://www.instagram.com/p/CNqqKnpAIsh/'
+    foto = 'https://www.instagram.com/p/CNviRv3rUC0/'
     quant_amigos_marca = 2
 
 

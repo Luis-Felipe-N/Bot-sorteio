@@ -20,11 +20,18 @@ https://www.python.org/downloads/release/python-394/
 git clone https://github.com/Luis-Felipe-N/Bot-sorteio.git
 ```
 
-- install the dependencies:
+- install the dependencies in windows:
 
 ```sh
 pip install selenium
 ```
+
+- install the dependencies in linux:
+
+```sh
+pip3 install selenium
+```
+
 
 
 ### How to use
@@ -34,7 +41,7 @@ pip install selenium
 
 <img src="/assets/exemplo1.png">
 
-- In file lista_de_contas.txt, insert the accounts that will be use.
+- In file lista_contas.txt, insert the accounts that will be use.
 
 <img src="/assets/exemplo2.png">
 
@@ -43,13 +50,8 @@ pip install selenium
 - [PYTHON](https://www.python.org/)
 - [SELENIUM](https://www.selenium.dev/)
 
-### Autor
 ---
-<a href="">
- <img style="border-radius: 50px;" src="/photo.jpg" width="100px;" alt=""/>
- <br />
- <sub><b>Luis Felipe</b></sub>
- </a>  <br>
 
+### Autor
 
 By Luis Felipe 🤙🏾.
