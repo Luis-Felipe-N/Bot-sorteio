@@ -94,14 +94,11 @@ def comentarFoto(driver, foto):
             sleep(random.randint(1, 5))
 
             # digitando um comentário aleatorio
-            print("antes de comentar")
             digitar_como_uma_pessoa(comentarios, campo_comentar)
-            print("depois de comentar")
             sleep(5)
             # publicar
 
             campo_comentar.send_keys(Keys.RETURN)
-            print(random.randint(tempo[0],tempo[1]), tempo[0], tempo[1])
             sleep(random.randint(tempo[0],tempo[1]))
             print('\033[32mComentando...\033[m')
 
@@ -134,7 +131,7 @@ op = 1
 if op == 1:
     username = lista_de_contas[0][0]
     password = lista_de_contas[0][1]
-    tempo = [5 , 2]
+    tempo = [2, 60]
     foto = 'https://www.instagram.com/p/CrV-loBuVo7/'
     quant_amigos_marca = 2
 
