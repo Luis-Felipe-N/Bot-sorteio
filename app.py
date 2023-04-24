@@ -89,8 +89,9 @@ def comentarFoto(driver, foto):
             comentarios = marcaAmigos(quant_amigos_marca)
 
             # clicando no campo comtentário
-            driver.find_element_by_class_name('Ypffh').click()
-            campo_comentar = driver.find_element_by_class_name('Ypffh')
+            driver.find_element(By.CSS_SELECTOR, '[aria-label="Adicione um comentário..."]').click()
+            campo_comentar = driver.find_element(By.CSS_SELECTOR, '[aria-label="Adicione um comentário..."]')
+
             sleep(random.randint(1, 5))
 
             # digitando um comentário aleatorio
@@ -132,7 +133,7 @@ if op == 1:
     username = lista_de_contas[0][0]
     password = lista_de_contas[0][1]
     tempo = [5 , 2]
-    foto = 'https://www.instagram.com/p/CNviRv3rUC0/'
+    foto = 'https://www.instagram.com/p/CrQlQ5bOPdM/'
     quant_amigos_marca = 2
 
 
