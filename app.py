@@ -2,6 +2,7 @@
 import random
 from time import sleep
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -44,18 +45,18 @@ def marcaAmigos(quant):
 
 def login(email, senha):
     # Entrando no Instagram
-    driver = webdriver.Chrome('/to/path/chromedriver')
+    driver = webdriver.Chrome('chromedriver')
     driver.get('https://www.instagram.com/')
     sleep(10)
 
     ## username
-    campo_username = driver.find_element_by_xpath("//input[@name='username']")
+    campo_username = driver.find_element(By.CSS_SELECTOR, "[name='username']")
     campo_username.click()
     campo_username.clear()
     campo_username.send_keys(email)
 
     ## password
-    campo_password = driver.find_element_by_xpath("//input[@name='password']")
+    campo_password = driver.find_element(By.CSS_SELECTOR, "[name='password']")
     campo_password.click()
     campo_password.clear()
     campo_password.send_keys(senha)
